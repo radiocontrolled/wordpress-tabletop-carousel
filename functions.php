@@ -1,8 +1,7 @@
 <?php
 
-/*
-	 * Generate a shortcode to insert carousel markup
-	*/
+	//sample function to go in a Wordpress functions.php file
+	
 	function awards_shortcode_generator(){
 		return "<div class='row'>
 					<div class='col-sm-12 col-md-12'>
@@ -22,6 +21,7 @@
 					</div>
 				</div> ";
 	}
+	
 	add_shortcode( 'awards_carousel', 'awards_shortcode_generator' );
 
 ?>
