@@ -190,6 +190,7 @@ function drawPanels(data, tabletop) {
 		if(data[i]["winnerthumbnail"]){
 			var thumbnail = document.createElement("img");
 			thumbnail.setAttribute("src",data[i]["winnerthumbnail"]);
+			thumbnail.setAttribute("alt",data[i]["winnername"]);
 			panelDetail.appendChild(thumbnail);	
 		}
 		
