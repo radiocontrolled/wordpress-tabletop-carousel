@@ -9,7 +9,7 @@
 							<main id='pastWinnerViewer'>
 								<nav id='past-winnders-nav'>
 									<div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
-										<ul class='nav navbar-nav'>
+										<ul class='nav navbar-nav hidden-xs hidden-sm'>
 											<li class='dropdown'><a href='#' class='dropdown-toggle awards-year' data-toggle='dropdown'>Year<b class='caret'></b></a>
 												<ul class='dropdown-menu awards-dropdown-menu'></ul>
 											</li>
